@@ -77,4 +77,32 @@ html {
 grid-row: 2 / 6;
 grid-column: 4 / 5;
   }
+
+  /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 30%; 
+    min-height: 30%;
+  }
   
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  .Ciekawy_napis{
+    font-size: 70px;
+    grid-column: 2/3
+}
