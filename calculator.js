@@ -1,20 +1,6 @@
-var disp = document.getElementById("disp");
-function ud(n){ 
-disp.innerHTML += n ;
-}
-function ans(){
-c=eval(disp.innerHTML);
-disp.innerHTML=c;
-}
-function clc(){
-disp.innerHTML='';
-}
 const init = () => {
-  console.log(document.getElementById('1'));}
-
-window.addEventListener('DOMContentLoaded', init);
-
-// XDDDDDDDD jebać cie js'sie kiedyś się zemszcze zobaczysz.
+    console.log('XDDDDDDDDDDD CO NIE DZIAŁA  GDZIE NIE DZIAŁA!?');
+    // XDDDDDDDD jebać cie js'sie kiedyś się zemszcze zobaczysz.
 document.getElementById("2").addEventListener("click",function(){ ud(2); });
 document.getElementById("3").addEventListener("click",function(){ ud(3); });
 document.getElementById("4").addEventListener("click",function(){ ud(4); });
@@ -33,5 +19,19 @@ document.getElementById("division").addEventListener("click",function(){ ud('/')
 
 document.getElementById("clear").addEventListener("click",function(){clc(); });
 document.getElementById("ans").addEventListener("click",function(){ ans(); });
+var disp = document.getElementById("disp");
+function ud(n){ 
+disp.innerHTML += n ;
+}
+function ans(){
+c=eval(disp.innerHTML);
+disp.innerHTML=c;
+}
+function clc(){
+disp.innerHTML='';
+}
+}
+
+window.addEventListener('DOMContentLoaded', init);
 
 
