@@ -1,25 +1,26 @@
-#container{
-    width: 505px;
-    background-color: black;
-    display:flex;
-    flex-direction: row;
-}
-#container > div{
-    background-color: aquamarine;
-    width: 60%;
-    height: 80%;
-    flex-grow: 1;
-    transition: all .4s linear;
-}
-#container > div:nth-child(2){
-    background-color: magenta;
-    flex-grow: 2;
-
-}
-#container > div:hover{
-    background-color: red
-}
-#container > div:nth-child(3){
-    background-color:seagreen;
-    flex-grow: 2;
-}
+.calc{
+    position:absolute;
+    background-color:red;
+    width:300px;
+    height:350px;
+  }
+  #disp{
+    display:block;
+    height:52px;
+    background-color:blue;
+    margin:8px;
+  }
+  .calc button{
+    height:45px;
+    width:50px;
+    background-color:yellow;
+    margin:5px 5px 5px 15px;
+  }
+  #ans{
+    width:270px;
+  }
+  #disp{
+    font-size:45px;
+    text-align:right;
+    overflow:auto;
+  }
